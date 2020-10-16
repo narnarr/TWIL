@@ -115,7 +115,7 @@
    Post.objects.filter(published_date__lte=timezone.now())
     ```
  6. 정렬하기
-    - 필드명만 적으면 필드명에 대해서 오름차순, 앞에 `-` 붙이면 내림차순.
+    - 필드명만 적으면 필드명에 대해서 오름차순, 앞에 '-' 붙이면 내림차순.
     - `Post.objects.filter(title__contains='title').order_by('created_date')`: 쿼리셋 여러개 연결한 것. chaining.
  
  
