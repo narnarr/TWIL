@@ -92,7 +92,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static)
        ]
     ```
     - 정규표현식 `<int:pk>`: 정수(int)가 와야하고, 이를 `pk`라는 변수로 뷰에 전송함을 의미
-    즉, http://localhost:8000/post/5를 입력하면 `post_detail`뷰를 통해서 5번째 포스트 글 보여줌
+    즉, http://localhost:8000/post/5 를 입력하면 `post_detail`뷰를 통해서 5번째 포스트 글 보여줌
 
 4. `blog/templates/blog/post_detail.html` 생성 후 코드 추가
  
